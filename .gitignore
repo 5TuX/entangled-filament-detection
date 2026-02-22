@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large binary data files
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Large images (keep small samples)
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep these paths tracked
+!.gitkeep

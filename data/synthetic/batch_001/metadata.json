@@ -1,0 +1,20 @@
+{
+  "num_images": 5,
+  "config": {
+    "image_size": "(512, 512)",
+    "num_filaments": "(30, 50)",
+    "num_control_points": "(20, 100)",
+    "amplitude_range": "(10, 100)",
+    "frequency_range": "(0.01, 0.05)",
+    "width_range": "(2, 8)",
+    "blur_sigma_range": "(0.5, 2.0)",
+    "convergence_zones": "(2, 5)",
+    "convergence_radius": "(50, 150)",
+    "convergence_multiplier": "(3, 6)",
+    "background_noise": "(0, 50)",
+    "partial_annotation_ratio": "(0.3, 0.7)",
+    "partial_length_ratio": "(0.4, 1.0)",
+    "seed": 123
+  },
+  "generator_class": "FilamentGenerator"
+}
